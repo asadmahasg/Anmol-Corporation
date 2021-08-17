@@ -1,0 +1,71 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Navigation page styling */
+.navbar{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background: rgba(11, 175, 204, 0.5);
+}
+.max-width{
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbarLogo{
+    width: 100px;
+}
+.list-items li{
+    display: inline-block;
+    list-style: none;
+    
+}
+.list-items li a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+.menu-btn{
+    text-decoration: none;
+    margin-left: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+/* Landing Page Styling  */
+.landingPage{
+    background-image: url("../Images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15%;
+    color: white;
+    height: 800px;
+}
+.content-inside{
+    margin-left: 100px;
+}
+.title{
+    font-size: 150px;
+    position: fixed;
+}
+.content{
+    font-size: 30px;
+    margin-top: 150px;
+    width: 600px;
+    position: fixed;
+}
+.contact-us-btn{
+    background: tomato;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border: none;
+    position: fixed;
+    margin-top: 300px;
+}
